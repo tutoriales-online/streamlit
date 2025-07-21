@@ -1,0 +1,31 @@
+[server]
+enableStaticServing = true
+
+[theme]
+base = "light"
+primaryColor = "#2E9455"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#ececec"
+textColor = "#051626"
+linkColor = "#9D9D9D"
+borderColor = "#7F7F7F"
+showWidgetBorder = false
+baseRadius = "0.3rem"
+headingFont = "IBM Plex Sans"
+font = "DM Sans"
+headingFontSizes = ["39.5px", "32px", "24px"]
+headingFontWeights = [900, 700, 700]
+buttonRadius = "full"
+
+[theme.sidebar]
+backgroundColor = "#EEEEEE"
+secondaryBackgroundColor = "#E1E1E1"
+borderColor = "#CECECE"
+
+[[theme.fontFaces]]
+url = "app/static/fonts/IBMPlexSans-VariableFont_wdth,wght.ttf"
+family = "IBM Plex Sans"
+
+[[theme.fontFaces]]
+url = "app/static/fonts/DMSans-VariableFont_opsz,wght.ttf"
+family = "DM Sans"
